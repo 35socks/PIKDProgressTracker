@@ -1,0 +1,53 @@
+{
+    "tracks": [
+        {
+            "name": "Paxton",
+            "status": "Not Started"
+        },
+        {
+            "name": "Around The Bend",
+            "status": "Not Started"
+        },
+        {
+            "name": "Hey, Mr. Movie Star",
+            "status": "Completed",
+            "notes": "released october 4th 2024\nhttps:\/\/found.ee\/sdhmms"
+        },
+        {
+            "name": "Dancing In The Rain",
+            "status": "Not Started"
+        },
+        {
+            "name": "Leave With You",
+            "status": "Not Started"
+        },
+        {
+            "name": "Take It From Us",
+            "status": "NOT STARTED"
+        },
+        {
+            "name": "Always Been Chill",
+            "status": "Not Started"
+        },
+        {
+            "name": "The Rook",
+            "status": "Not Started"
+        },
+        {
+            "name": "BLOW",
+            "status": "NOT STARTED"
+        },
+        {
+            "name": "Trapdoor",
+            "status": "Not Started"
+        },
+        {
+            "name": "The Best Is Yet To Come",
+            "status": "NOT STARTED"
+        },
+        {
+            "name": "If I Were God",
+            "status": "Not Started"
+        }
+    ]
+}
