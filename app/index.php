@@ -19,7 +19,7 @@ if (!$tracks_data) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Under The Sea</title>
+    <title>Dashboard - PIKD Progress Tracker</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
@@ -36,12 +36,12 @@ if (!$tracks_data) {
         import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-auth.js";
 
         const firebaseConfig = {
-            apiKey: "AIzaSyBFf-U3W1xZlhm5cY4dkIIAKVdVj7VYtto",
-            authDomain: "underthesea-sd.firebaseapp.com",
-            projectId: "underthesea-sd",
-            storageBucket: "underthesea-sd.appspot.com",
-            messagingSenderId: "749177833775",
-            appId: "1:749177833775:web:ecf551dc4d33f9e2f179da"
+            apiKey: "API_KEY",
+            authDomain: "AUTH_DOMAIN.firebaseapp.com",
+            projectId: "PROJECT_ID",
+            storageBucket: "STORAGE_BUCKET.appspot.com",
+            messagingSenderId: "MESSAGING_SENDER_ID",
+            appId: "APP_ID"
         };
 
         const app = initializeApp(firebaseConfig);
@@ -49,13 +49,13 @@ if (!$tracks_data) {
 
         onAuthStateChanged(auth, (user) => {
             if (!user) {
-                window.location.href = "https://uts-progresstracker.pikd.nl";
+                window.location.href = "https://project-progresstracker.pikd.nl";
             }
         });
 
         window.logout = function() {
             signOut(auth).then(() => {
-                window.location.href = "https://uts-progresstracker.pikd.nl";
+                window.location.href = "https://project-progresstracker.pikd.nl";
             }).catch((error) => {
                 alert("Error logging out: " + error.message);
             });
@@ -65,10 +65,10 @@ if (!$tracks_data) {
     <!-- Sidebar with logo -->
     <div class="w-1/8 bg-black p-6">
         <div class="flex items-center">
-            <img src="https://t2.genius.com/unsafe/529x0/https%3A%2F%2Fimages.genius.com%2F9742162b0a0d5c96d64bee5649644eba.1000x1000x1.png" alt="Logo" class="h-48 w-48 mr-4">
+            <img src="https://public.pikdcdn.com/img/placeholder-art.png" alt="Logo" class="h-48 w-48 mr-4">
             <div class="text-white">
-                <h1 class="text-4xl mb-2">Under The Sea</h1>
-                <p>Sky Dreamers</p>
+                <h1 class="text-4xl mb-2">Release Title</h1>
+                <p>Artist Name</p>
 <br>
 <p>Deadline:</p>
                 <p id="countdown" class="mt-2"></p>
@@ -180,7 +180,7 @@ if (!$tracks_data) {
                 .replace(/"/g, "&quot;")
                 .replace(/'/g, "&#039;");
         }
-
+// add your timelimit here
         function calculateDeadline() {
             const deadlineDate = new Date('December 25, 2025').getTime();
             const now = new Date().getTime();
