@@ -1,52 +1,52 @@
 {
     "tracks": [
         {
-            "name": "Paxton",
+            "name": "Track1",
             "status": "Not Started"
         },
         {
-            "name": "Around The Bend",
+            "name": "placeholder",
             "status": "Not Started"
         },
         {
-            "name": "Hey, Mr. Movie Star",
+            "name": "placeholder again",
             "status": "Completed",
-            "notes": "released october 4th 2024\nhttps:\/\/found.ee\/sdhmms"
+            "notes": "released"
         },
         {
-            "name": "Dancing In The Rain",
+            "name": "juh",
             "status": "Not Started"
         },
         {
-            "name": "Leave With You",
+            "name": "morenew",
             "status": "Not Started"
         },
         {
-            "name": "Take It From Us",
+            "name": "tongs",
             "status": "NOT STARTED"
         },
         {
-            "name": "Always Been Chill",
+            "name": "track",
             "status": "Not Started"
         },
         {
-            "name": "The Rook",
+            "name": "the end",
             "status": "Not Started"
         },
         {
-            "name": "BLOW",
+            "name": "nevermind",
             "status": "NOT STARTED"
         },
         {
-            "name": "Trapdoor",
+            "name": "zzzzz",
             "status": "Not Started"
         },
         {
-            "name": "The Best Is Yet To Come",
+            "name": "even more",
             "status": "NOT STARTED"
         },
         {
-            "name": "If I Were God",
+            "name": "last one boom",
             "status": "Not Started"
         }
     ]
