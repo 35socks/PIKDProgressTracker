@@ -41,12 +41,12 @@
 
     // Your web app's Firebase configuration
     const firebaseConfig = {
-      apiKey: "AIzaSyBFf-U3W1xZlhm5cY4dkIIAKVdVj7VYtto",
-      authDomain: "underthesea-sd.firebaseapp.com",
-      projectId: "underthesea-sd",
-      storageBucket: "underthesea-sd.appspot.com",
-      messagingSenderId: "749177833775",
-      appId: "1:749177833775:web:ecf551dc4d33f9e2f179da"
+      apiKey: "YOUR_API_KEY",
+      authDomain: "AUTH_DOMAIN.firebaseapp.com",
+      projectId: "PROJECT_ID",
+      storageBucket: "STORAGE_BUCKET.appspot.com",
+      messagingSenderId: "MESSAGING_SENDER_ID",
+      appId: "APP_ID"
     };
 
     // Initialize Firebase
@@ -64,7 +64,7 @@
         console.log("Login successful:", userCredential.user);
         
         // Redirect to dashboard
-        window.location.href = "/uts";
+        window.location.href = "/app";
       } catch (error) {
         console.error("Error during login:", error);
         alert("Login failed: " + error.message);
